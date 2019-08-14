@@ -1,0 +1,88 @@
+.ordershare h2 {
+   margin:10px 0 20px;
+}
+
+.ordershare .item ul li {
+   float:left;
+   width:30px;
+   height:30px;
+   margin:0 10px 0 0;
+}
+
+.ordershare .item ul li a {
+   display:block;
+   width:30px;
+   height:30px;
+   overflow:hidden;
+   line-height:28px;
+   text-decoration:none;
+   font-size: 22px;
+   box-shadow: 0 0 2px #000;
+font-weight: bold;
+   text-shadow:0 -1px 0 rgba(0,0,0,0.5);
+   -moz-border-radius:5px;
+   -webkit-border-radius:5px;
+   border-radius:5px; 
+   text-transform:lowercase;
+   color: #fff;
+}
+
+.ordershare .item ul li a:hover,
+.ordershare .item ul li a:focus,
+.ordershare .item ul li a:active {
+   opacity:0.8;
+   border-color:#000;
+}
+
+.ordershare .item div.share {
+    padding:10px;    
+}
+
+.ordershare .item div.facebook,
+.ordershare .item div.twitter, .ordershare .item div.linkedin {
+    float:left;
+}
+
+.ordershare .item div.facebook {
+    margin-left:10px;
+}
+
+.ordershare .item ul li.facebook a {
+    color:#fff;
+    background:#3c5a98;
+    line-height: 30px;
+}
+.ordershare .item ul li.linkedin-sharing a {
+    position:relative;
+    background:#3c5a98;
+}
+.ordershare .item ul li.google a {
+    background:#DC4937;
+    line-height: 24px;
+}
+
+.ordershare .item ul li.pintrest a {
+    line-height: 24px;
+    background:#CB2027;
+}
+
+.ordershare .item ul li.stumble a {
+    background:#EB4924;
+}
+.ordershare .item ul li.twitter a {
+    position:relative;
+    color:#76DDF8;
+    background:#daf6f7;
+   text-shadow: 2px 2px 1px #fff, -2px -2px 1px #fff, 2px -2px 1px #fff, -2px 2px 1px #fff;
+     background:-webkit-gradient(linear, left top, left bottom, from(#dbf7f8), to(#88e1e6));
+    background:-moz-linear-gradient(top, #dbf7f8, #88e1e6);
+    background:linear-gradient(top, #dbf7f8, #88e1e6); 
+}
+
+.ordershare li.item{
+      height: 347px!important;
+  width: 22%!important;
+  float: left;
+  margin-top: 10px;
+  margin-left: 85px;
+}

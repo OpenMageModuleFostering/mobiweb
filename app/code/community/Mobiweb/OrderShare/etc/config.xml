@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Mobiweb_OrderShare>
+            <version>1.1.4</version>
+        </Mobiweb_OrderShare>
+    </modules>
+
+    <global>
+        <models>
+            <ordershare>
+                <class>Mobiweb_OrderShare_Model</class>
+            </ordershare>
+        </models>
+        <blocks>
+            <ordershare>
+                <class>Mobiweb_OrderShare_Block</class>
+            </ordershare>
+        </blocks>
+        <helpers>
+            <ordershare>
+                <class>Mobiweb_OrderShare_Helper</class>
+            </ordershare>
+        </helpers>
+
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <ordershare>
+                    <file>mobiweb/ordershare.xml</file>
+                </ordershare>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Mobiweb_OrderShare>
+                    <files>
+                        <default>Mobiweb_Ordershare.csv</default>
+                    </files>
+                </Mobiweb_OrderShare>
+            </modules>
+        </translate>
+    </frontend>
+     
+    <admin>
+        <routers>
+            <ordershare>
+            <use>admin</use>
+            <args>
+                <module>Mobiweb_OrderShare</module>
+                <frontName>ordershare</frontName>
+            </args>
+        </ordershare>
+        </routers>
+    </admin> 
+
+    <adminhtml>
+        <acl>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <ordershare translate="title" module="ordershare">
+                                            <title>Order Share</title>
+                                        </ordershare>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+    
+    <default>
+        <ordershare>
+            <design>
+                <columncount>4</columncount>
+            </design>
+        </ordershare>
+    </default>
+
+</config>

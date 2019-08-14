@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mobiweb</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Mobiweb Order Share Extension allows you to share your products from Magento order success page to your Social Accounts.</summary>
+    <description>Mobiweb Order Share Extension allows you to share your products from Magento order success page to your Social Accounts. This module shows the social share options like Facebook, twitter, Linkedin, Google Plus, Pintrest and Stumbleupon. The extension provide a very easy way to share the products to your friends or also on professional network along with product image, link and description. This extension is easy to install and also support old and latest Magento versions.</description>
+    <notes>First Preview Release</notes>
+    <authors><author><name>Mobiweb</name><user>Ravi</user><email>info@mobiwebtech.com</email></author></authors>
+    <date>2016-08-05</date>
+    <time>10:03:10</time>
+    <contents><target name="magecommunity"><dir name="Mobiweb"><dir name="OrderShare"><dir name="Block"><dir name="Multishipping"><file name="Ordershare.php" hash="93e6ed66e9a6d5eb9cabdee575c10205"/></dir><file name="Ordershare.php" hash="1c9c795129923e1402ce4d25a2904a8c"/></dir><dir name="Helper"><file name="Data.php" hash="a773be4cb1f91456842f7bbaf639007b"/></dir><dir name="Model"><file name="Share.php" hash="677d38c3fbd752c56e39b2c27ffc0215"/></dir><dir name="etc"><file name="config.xml" hash="5a37d8aec1d27ea7c25c7507a8ed459c"/><file name="system.xml" hash="8655c0417f4e42ef74b3376830104842"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="rwd"><dir name="default"><dir name="template"><dir name="mobiweb"><dir name="ordershare"><dir name="multishipping"><file name="ordershare.phtml" hash="bce8cba86a8ff05dcfc31f65fedc3135"/></dir><file name="ordershare.phtml" hash="0d4016d2023afb41715a5373c2427221"/></dir></dir></dir><dir name="layout"><dir name="mobiweb"><file name="ordershare.xml" hash="ba07554101bfb94d366af204eba6c45b"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mobiweb_OrderShare.xml" hash="b9d19e5472e44b71faeda9c50e7f900b"/></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="mobiweb_Ordershare.csv" hash="16d344a47fd34dd45a565610a92174a9"/></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="rwd"><dir name="default"><dir name="mobiweb"><dir name="ordershare"><dir name="css"><file name="ordershare.css" hash="c495dba5f277d723189e2461a4b44c68"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php><package><name>Mobiweb</name><channel>community</channel><min>5.0.0</min><max>6.0.0</max></package></required></dependencies>
+</package>

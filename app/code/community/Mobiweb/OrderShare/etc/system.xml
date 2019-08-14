@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <ordershare translate="label" module="ordershare">
+            <label>Mobiweb Order Share</label>
+            <tab>sales</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>2000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <design translate="label">
+                    <label>Order Share configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                          <enabled translate="label">
+                                <label>Enabled</label>
+                                <frontend_type>select</frontend_type>
+                                <source_model>adminhtml/system_config_source_yesno</source_model>
+                                <sort_order>1</sort_order>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>
+                            </enabled>
+                             <twitter translate="label">
+                                <label>Share on Twitter</label>
+                                <frontend_type>select</frontend_type>
+                                 <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                                <sort_order>2</sort_order>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>    
+                            </twitter>
+                            <facebook translate="label">
+                                <label>Share on Facebook</label>
+                                <frontend_type>select</frontend_type>
+                                <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                                <sort_order>3</sort_order>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>    
+                            </facebook>
+                            <linkedin translate="label">
+                                <label>Share on Linkedin</label>
+                                <frontend_type>select</frontend_type>
+                                <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                                <sort_order>4</sort_order>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>    
+                            </linkedin>                            
+                            <googleplus translate="label">
+                                <label>Share on Google Plus</label>
+                                <frontend_type>select</frontend_type>
+                                 <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                                <sort_order>5</sort_order>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>    
+                            </googleplus> 
+                             <pinterest translate="label">
+                                <label>Share on Pinterest</label>
+                                <frontend_type>select</frontend_type>
+                                 <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                                <sort_order>6</sort_order>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>    
+                            </pinterest>
+                             <stumbleupon translate="label">
+                                <label>Share on Stumbleupon</label>
+                                <frontend_type>select</frontend_type>
+                                <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                                <sort_order>7</sort_order>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>    
+                             </stumbleupon>     
+                   </fields>
+                </design>
+                   
+             </groups>
+        </ordershare>
+    </sections>
+</config>

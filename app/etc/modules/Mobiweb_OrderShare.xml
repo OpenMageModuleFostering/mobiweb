@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Mobiweb_OrderShare>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Mobiweb_OrderShare>
+    </modules>
+</config>
+
