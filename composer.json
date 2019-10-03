@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Mobiweb",
+    "name": "OpenMageModuleFostering\/Mobiweb",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Mobiweb Order Share Extension allows you to share your products from Magento order success page to your Social Accounts.",
     "authors": [
-    {
-        "name": "Mobiweb",
-        "email": "info@mobiwebtech.com"
-    }
-],
+        {
+            "name": "Mobiweb",
+            "email": "info@mobiwebtech.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
